@@ -12,9 +12,19 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 
+<<<<<<< HEAD
 def move(board, index, character = "X")
                                              # puts "the board is: #{board}"
                                              # puts "the index is #{index}"
                                              # puts "the character is #{character}"
   board[index] = character
 end
+=======
+def move(board, position, character = "X")
+  # puts "the board is: #{board}"
+  # puts "the index is #{index}"
+  # puts "the character is #{character}"
+  board[index] = character
+end
+
+>>>>>>> d15f782262fe5b52d07ca16e78a25818f7ad8b4b
